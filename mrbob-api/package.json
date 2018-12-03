@@ -1,0 +1,30 @@
+{
+  "name": "mrbob-api",
+  "version": "1.0.0",
+  "description": "API for Mr.BOB",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhojan28/mrbot.git"
+  },
+  "author": "Jhojan García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jhojan28/mrbot/issues"
+  },
+  "homepage": "https://github.com/Jhojan28/mrbot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "express-asyncify": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
